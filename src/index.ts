@@ -9,7 +9,7 @@ import { getDefaultRelaySigningKey } from "./utils";
 
 const ETHEREUM_RPC_URL = process.env.ETHEREUM_RPC_URL || "https://goerli.infura.io/v3/14d934a1ee0343ebb5357064fa2b2f3f"
 
-const PRIVATE_KEY = process.env.PRIVATE_KEY || "b3e8a3e8e68c15dc62a0a96ce8a32f21f70d58857697dd2cd8070bc4eee5d906"
+const PRIVATE_KEY = process.env.PRIVATE_KEY || ""
 
 const BUNDLE_EXECUTOR_ADDRESS = process.env.BUNDLE_EXECUTOR_ADDRESS || "0x902afcaAA73E3c504eFF1A60B9B2fDAd38217b3D"
 
